@@ -1,0 +1,1 @@
+﻿package com.pier{		import flash.display.*;	import flash.text.*;	import flash.events.*;		public class Button1 extends MovieClip{		var text1:TextField = new TextField();				public function Button1(){			text1.x = this.x			text1.y = this.y			addChild(text1);			text1.text = " button class ";			//trace(this.x);							}											}	}
